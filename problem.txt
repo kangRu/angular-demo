@@ -1,0 +1,15 @@
+1、为什么添加的哈希值会自动在前面加上#!#%2F这几个符号？
+    是不是用的新的ngRoute？哈哈
+
+    decodeURIComponent('%2f')
+    那个%2f 其实就是/。
+
+    然后在新的ngRoute中默认的路由分割符号是!#，已经不是#了。
+
+    对了，那个是可以配置的。可在config里通过hashPrefix干掉感叹号。
+
+    $locationProvider.hashPrefix('');
+    官方文档在这儿: https://docs.angularjs.org/ap...$locationProvider
+
+2、瀑布流中图片叠加的问题
+3、

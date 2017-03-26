@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asset/css/index.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asset/js/prefixfree.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my01/01.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my01/01.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my02/02.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my02/02.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my03/03.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my03/03.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my04/04.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/node_modules/angular-route/angular-route.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/node_modules/angular/angular.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/wwaterFall.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/waterFull/index1.js" charset="UTF-8" />
+  </component>
+</project>

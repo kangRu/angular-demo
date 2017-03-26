@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+    user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>Document</title>
+	<!--第三方样式-->
+	<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+	<link rel="stylesheet" href="./asset/css/bootstrap.min.css"/>
+	<link  id = "lik" href="fullpage-exzample/css/jquery.fullPage.css" rel="stylesheet" type="text/css">
+   <!--自己的样式-->
+	<link rel="stylesheet" href="./asset/css/base.css">
+	<link rel="stylesheet" href="./asset/css/index.css">
+
+
+</head>
+<body ng-app="app" ng-controller="appController">
+	<div class="container">
+		<div class="nav">
+			<ul class = "nav-list">
+
+				<li><a href="#/my01">01</a></li>
+				<li><a href="#/my02">02</a></li>
+				<li><a href="#/my03">03</a></li>
+				<li><a href="#/my04">04</a></li>
+				<li><a href="#/my05">05</a></li>
+				<li><a href="#/my06">06</a></li>
+				<li><a href="#/my07">07</a></li>
+				<li><a href="#/my08">08</a></li>
+
+
+			</ul>
+		</div>
+
+		<div class="content" style = "position:relative">
+			<div class ="view"ng-view >
+
+			</div>
+		</div>
+
+
+
+
+	</div>
+</body>
+</html>
+
+
+
+
+<script src = "node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap.min.js"></script>
+<script  id = " full" src="fullpage-exzample/js/jquery.fullPage.js"></script>
+<script src = "./asset/js/prefixfree.min.js"></script>
+<script src = "./node_modules/angular/angular.min.js"></script>
+<script src = "./node_modules/angular-route/angular-route.min.js"></script>
+<script type="text/javascript"
+		src="http://api.map.baidu.com/api?v=2.0&ak=lwlrqHRQLV0MsBD5ZXj4GikwXESH08Zz"></script>
+<script src = "./app.js"></script>
+<script src ="./my01/01.js"></script>
+<script src ="./my02/02.js"></script>
+<script src ="./my03/03.js"></script>
+<script src ="./my04/04.js"></script>
+<!--<script src ="./my05/05.js"></script>-->
+<script src = "waterFull/index1.js"></script>
+<script src = "services/wwaterFall.js"></script>
+<script src = "./fullpage-exzample/fullpage-exzample.js"></script>
+
+<script src = "./fullpage-exzample/page2.js"></script>
+<script src = "./fullpage-exzample/page3.js"></script>
+<script src = "./fullpage-exzample/page4.js"></script>
+<script src = "./fullpage-exzample/page5.js"></script>
+
+<script src ="responsive/responsive.js"></script>
+
+
+<script src="services/todoServices.js"></script>
+<script src="todoMVC/todoApp.js"></script>
+
+
+<script>
+
+
+
+	if(window.location.href==="http://localhost:63342/angular&&css3/index.html"){
+		window.location.href="http://localhost:63342/angular&&css3/index.html#/my01";
+	}
+
+
+
+</script>
+
+
+
+
+
+
+
+
